@@ -1,0 +1,107 @@
+{
+   "users": {
+      "dni": [
+         1,
+         26752102,
+         37829432,
+         40789167,
+         44080843
+      ],
+      "contrasena": [
+         "1",
+         "RodrigoR",
+         "IvanaI",
+         "MartinM",
+         "FranciscoM"
+      ],
+      "nombre": [
+         "Admin",
+         "Rodrigo Rodriguez",
+         "Ivana Ibanez",
+         "Martin Martinez",
+         "Francisco Meaurio"
+      ],
+      "alias": [
+         "testing",
+         "RRodriguez",
+         "IIbanez",
+         "MMartinez",
+         "FMeaurio"
+      ],
+      "dinero": [
+         997900,
+         10000,
+         500,
+         286,
+         0
+      ],
+      "deudas": [
+         {
+            "deuda1": 10000000,
+            "deuda3": 100,
+            "Vencimiento 2024-07-01": 110000
+         },
+         {
+            "Cablevision": 5000,
+            "Musimundo": 10000,
+            "EDENOR": 150000
+         },
+         {
+            "Supermercado Dia": 10000,
+            "Tienda de Cafe": 5000
+         },
+         {
+            "Mercadopago": 150
+         },
+         {
+            "Vencimiento 2024-07-01": 110000
+         }
+      ],
+      "historial": [
+         {
+            "Sat Mar 30 17:31:09 2024: Transferiste $1": [
+               "tE",
+               "FMeaurio"
+            ],
+            "Sat Mar 30 17:31:15 2024: Adquiriste un credito por un total de $100000": [
+               "c",
+               100000,
+               110000,
+               "Vencimiento 2024-07-01"
+            ],
+            "Sat Mar 30 17:31:29 2024: Pagaste deudas por un total de $2000": [
+               "p",
+               {
+                  "deuda2": 2000
+               }
+            ],
+            "Sat Mar 30 17:32:05 2024: Te transfirieron $1": [
+               "tR",
+               "FMeaurio"
+            ],
+            "Sat Mar 30 17:32:24 2024: Transferiste $100": [
+               "tE",
+               "MMartinez"
+            ]
+         },
+         {},
+         {},
+         {
+            "Sat Mar 30 17:32:24 2024: Te transfirieron $100": [
+               "tR",
+               "testing"
+            ]
+         },
+         {
+            "Sat Mar 30 17:31:09 2024: Te transfirieron $1": [
+               "tR",
+               "testing"
+            ],
+            "Sat Mar 30 17:32:05 2024: Transferiste $1": [
+               "tE",
+               "testing"
+            ]
+         }
+      ]
+   }
+}
